@@ -2,60 +2,20 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>按钮</title>
-		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<title>Settlement</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<meta http-equiv="Cache-Control" content="no-cache" /><!--只是或者请求的消息不能缓存-->
+    	<meta name="viewport" content="width=device-width" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><!--强制让文档与设备的宽度保持 1:1 ；
+    	文档最大的宽度比列是1.0（ initial-scale 初始刻度值和 maximum-scale 最大刻度值）；user-scalable 定义用户是否可以手动缩放（ no 为不缩放），使页面固定设备上面的大小；-->
+    	<meta name="apple-mobile-web-app-capable" content="yes" /><!--网站开启对 web app 程序的支持-->
+   		<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!--（改变顶部状态条的颜色）-->
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--jquery样式文件-->
+		<link rel="stylesheet" type="text/css" href="css/style.css"><!--css样式-->
 	</head>
-	<style type="text/css">
-		.open{
-			width: 100%;
-			height: 50px;
-		}
-		.open ul{
-			list-style: none;
-		}
-		.open ul li{
-			float: left;
-			width: 33.33%;
-			text-align: center;
-		}
-		.one{
-			background: #f00;
-			height: 500px;
-		}
-		.two{
-			background: #000;
-			height: 500px;
-			display: none;
-		}
-		.three{
-			background: yellow;
-			height: 500px;
-			display: none;
-		}
-		.cc{
-			color: red;
-			background:#000;
-		}
-	</style>
+	
 	<body>
-		<div class="open">
-			<ul>
-				<li class="cc">cool</li>
-				<li>car</li>
-				<li>son</li>
-			</ul>
-		</div>
-		<div>
-		<div class="one aaa"></div>
-		<div class="two aaa"></div>
-		<div class="three aaa"></div>
-		</div>
+		
 	</body>
 </html>
-<script type="text/javascript">
-$('li').click(function(){
-		var i = $(this).index();
-		$('.aaa').eq(i).show().siblings().hide();
-		$(this).addClass('cc').siblings().removeClass();
-})
-</script>
