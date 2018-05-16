@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*css.优惠卡基础样式*/
+body{
+	margin:0;
+	padding: 0; 
+}
+.clear{
+	clear: both;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	background: #000;
+}
+.head p{
+	margin:0; 
+	float: left;
+	color: #fff;
+	font-weight: 800;
+	line-height: 50px;
+}
+.head_Return{
+	width: 28px;
+	height: 26px;
+	margin: 12px;
+	display: block;
+	float: left;
+	background: url(../img/Return.png);
+}
+.Michael_14lst{
+	width: 100%;
+	height: 15px;
+	background: #f8f8f8;
+}
+.wallet{
+	width: 100%;
+}
+/*.wallet_title{
+	border-bottom: 1px #d4cdcd solid;
+}*/
+.wallet_title p{
+	margin: 13px;
+	float: left;
+	font-size: 18px;
+	font-weight: 800;
+	font-family:"方正粗圆简";
+}
+.wallet_card{
+	width: 100%;
+}
+.wallet_cardone{
+	width: 70%;
+	margin:20px auto;
+	position: relative; 
+}
+.wallet_cardone img{
+	width: 100%;
+}
+.na_card{
+	width: 42px;
+	height: 28px;
+	margin: 12px;
+	display: block;
+	float: left;
+	background: url(../img/card.png);
+}
+.card_name{
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	z-index: 2;
+}
+.card_name p{
+	margin:10px; 
+	color: #fff;
+	font-weight: bold;
+}
+.card_address p{
+	margin:10px;
+	color: #fff;
+	font-weight: bold;
+}
+.card_address i{
+	font-style: normal;
+	font-weight: bold;
+}
+.card_address{
+	position: absolute;
+	bottom: 0px;
+	left: 15px;
+	z-index: 2;
+}
+
+
+.card_balance p{
+	margin:10px;
+	color: #000;
+	font-weight: bold;
+}
+.card_balance i{
+	font-style: normal;
+	font-weight: bold;
+}
+.card_balance{
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	z-index: 2;
+}
