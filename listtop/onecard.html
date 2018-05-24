@@ -13,6 +13,7 @@
    		<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!--（改变顶部状态条的颜色）-->
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--jquery样式文件-->
 		<link rel="stylesheet" type="text/css" href="css/style_coupon.css"><!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/2m	.css"><!--css样式-->
 	</head>
 	
 	<body>
@@ -28,44 +29,45 @@
 			<div class="wallet_title"><i class="na_card"></i><p>充值卡</p></div>
 			<div class="clear"></div>
 			<div class="wallet_card">
-				<div class="wallet_cardone">
+				<div class="wallet_cardone buttons">
 				<a href="#"><img src="img/Rechargeable.png"></a>
 				<div class="card_name"><p>一汽大众</p></div>
 				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
-				<div class="card_balance"><p>余额：<i>2000</i></p></div>
-				<div class="card_nim"><p class="content">土豪卡</p></div>
+				<div class="card_nim"><p  data-modal="#modal" class="content modal__trigger">充值卡</p></div>
 				</div>
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Rechargeable.png"></a>
-				<div class="card_name"><p>一汽大众</p></div>
-				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
-				<div class="card_balance"><p>余额：<i>2000</i></p></div>
-				<div class="card_nim"><p class="content">土豪卡土</p></div>
-				</div>
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Rechargeable.png"></a>
-				<div class="card_name"><p>一汽大众</p></div>
-				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
-				<div class="card_balance"><p>余额：<i>2000</i></p></div>
-				<div class="card_nim"><p class="content">土豪卡土</p></div>
-				</div>
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Rechargeable.png"></a>
-				<div class="card_name"><p>一汽大众</p></div>
-				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
-				<div class="card_balance"><p>余额：<i>2000</i></p></div>
-				<div class="card_nim"><p class="content">土豪卡土</p></div>
-				</div>
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Rechargeable.png"></a>
-				<div class="card_name"><p>一汽大众</p></div>
-				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
-				<div class="card_balance"><p>余额：<i>2000</i></p></div>
-				<div class="card_nim"><p class="content">土豪卡土土</p></div>
+				<div class="le_ren">
+				<a href="#"><p>用户列表</p></a>	
 				</div>
 			</div>
-		</div>
 
+			<div class="card_list">
+				<ul>
+					<li><a href="#">卡的领取数量</a></li>
+					<li><a href="#">已使用的数量</a></li>
+					<li><a href="#">到期时间</a></li>
+					<li><a href="#">卡行业</a></li>
+					<li><a href="#">商品介绍</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Modal -->
+			<div id="modal" class="modal modal__bg" role="dialog" aria-hidden="true">
+			  <div class="modal__dialog">
+			    <div class="modal__content">
+			      <h1>1367958753297</h1>
+			      <p><img src="img/qr_code.png"></p>
+			      
+			      <!-- modal close button --> 
+			      <a href="" class="modal__close demo-close">
+			      <svg class="" viewBox="0 0 24 24">
+			        <path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path>
+			        <path d="M0 0h24v24h-24z" fill="none"></path>
+			      </svg>
+			      </a> </div>
+			  </div>
+			</div>
+			
+		<!--底部-->
 		<div id="footer">
            <ul>
 				<li>优惠卡</li>
@@ -73,6 +75,7 @@
 				<li>我的订单</li>
            </ul>
         </div>
+<script type="text/javascript" src="js/index.js"></script>
 	</body>
 </html>
 <script type="text/javascript"> 

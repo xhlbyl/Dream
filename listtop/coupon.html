@@ -13,6 +13,7 @@
    		<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!--（改变顶部状态条的颜色）-->
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--jquery样式文件-->
 		<link rel="stylesheet" type="text/css" href="css/style_coupon.css"><!--css样式-->
+		
 	</head>
 	
 	<body>
@@ -28,27 +29,55 @@
 			<div class="wallet_title"><i class="na_card"></i><p>优惠卡</p></div>
 			<div class="clear"></div>
 			<div class="wallet_card">
-				<div class="wallet_cardone">
+				<div class="wallet_cardone buttons">
 				<a href="#"><img src="img/Coupon.png"></a>
 				<div class="card_name"><p>一汽大众</p></div>
 				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
+				<div class="card_nim"><p class="content">土豪卡</p></div>
 				</div>
 				<div class="wallet_cardone">
 				<a href="#"><img src="img/Coupon.png"></a>
 				<div class="card_name"><p>一汽大众</p></div>
 				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
+				<div class="card_nim"><p class="content">土豪卡土豪卡</p></div>
 				</div>
 				<div class="wallet_cardone">
 				<a href="#"><img src="img/Coupon.png"></a>
 				<div class="card_name"><p>一汽大众</p></div>
 				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
+				<div class="card_nim"><p class="content">土豪金土豪金土</p></div>
 				</div>
 				<div class="wallet_cardone">
 				<a href="#"><img src="img/Coupon.png"></a>
 				<div class="card_name"><p>一汽大众</p></div>
 				<div class="card_address"><p>地址：<i>河北省邯郸市魏县</i></p></div>
+				<div class="card_nim"><p class="content">土豪卡</p></div>
 				</div>
 			</div>
 		</div>
+		
+		<!--底部-->
+		<div id="footer">
+           <ul>
+				<li>优惠卡</li>
+				<li>充值卡</li>
+				<li>我的订单</li>
+           </ul>
+        </div>
+
 	</body>
 </html>
+<script type="text/javascript"> 
+$(function(){
+	var $box=$(".card_nim");
+    var $content=$(".content");
+    $content.each(function(){
+    	var a = $(this).height();
+    	var b = $box.height();
+    	for(; a >= b; a--)
+    	{
+    		$(this).css('font-size',parseInt($(this).css('font-size'))-1 +'px');
+    	}
+    });
+});
+</script> 

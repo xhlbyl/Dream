@@ -12,37 +12,43 @@
     	<meta name="apple-mobile-web-app-capable" content="yes" /><!--网站开启对 web app 程序的支持-->
    		<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!--（改变顶部状态条的颜色）-->
 		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--jquery样式文件-->
-		<link rel="stylesheet" type="text/css" href="css/style.css"><!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/style_coupon.css"><!--css样式-->
 	</head>
 	
 	<body>
 		<header class="head">
-			<div class="list_top">
-				<div class="list_photo"><img src="img/photo.png"></div>
-			</div>
-			<div class="list_information">
-				<div class="list_text">
-					<p>保定乐人科技</p>
-					<p>用户类型：<b>商户</b></p>
-					<p>账号：<b>152369768438943</b></p>
-				</div>
-			</div>
+			<a onClick="javaScript:history.go(-1)"><i class="head_Return"></i></a><p>我的卡包——充值卡</p>
 		</header>
+		<div class="clear"></div>
 		<!--Michael是灰度块儿，禁删-->
 		<div class="Michael_14lst">
 		</div>
 		<!--Michael是灰度块儿，禁删-->
 		<div class="wallet">
-			<div class="wallet_title"><p>我的卡包</p></div>
+			<div class="wallet_title"><i class="na_card"></i><p>充值卡</p></div>
+			<div class="clear"></div>
 			<div class="wallet_card">
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Coupon.png"></a>
-						<p>优惠卡</p>
-				</div>
-				<div class="wallet_cardone">
-				<a href="#"><img src="img/Rechargeable.png"></a>
-						<p>充值卡</p>
-				</div>
+				<table class="dataintable">
+				<tbody>
+				<tr>
+				<th style="width:30%;">使用金额</th>
+				<th style="width:30%;">剩余金额</th>
+				<th style="width:40%;">日期</th>
+				</tr>
+
+				<tr>
+				<td><p>188</p></td>
+				<td>
+				<p>312</p>
+				</td>
+				<td>
+				<p>2018/5/22</p>
+				</td>
+				</tr>
+
+				
+				</tbody>
+			</table>
 			</div>
 		</div>
 
