@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    	<title>添加新充值卡</title>
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<meta http-equiv="Cache-Control" content="no-cache" /><!--只是或者请求的消息不能缓存-->
+    	<meta name="viewport" content="width=device-width" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><!--强制让文档与设备的宽度保持 1:1 ；
+    	文档最大的宽度比列是1.0（ initial-scale 初始刻度值和 maximum-scale 最大刻度值）；user-scalable 定义用户是否可以手动缩放（ no 为不缩放），使页面固定设备上面的大小；-->
+    	<meta name="apple-mobile-web-app-capable" content="yes" /><!--网站开启对 web app 程序的支持-->
+   		<meta name="apple-mobile-web-app-status-bar-style" content="black" /><!--（改变顶部状态条的颜色）-->
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--jquery样式文件-->
+		<link rel="stylesheet" type="text/css" href="css/styles_tk.css"><!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/style_coupon.css"><!--css样式-->
+		<link rel="stylesheet" type="text/css" href="css/2m	.css"><!--css样式-->
+
+	</head>
+	
+	<body>
+		<!-- <header class="head">
+			<a onClick="javaScript:history.go(-1)"><i class="head_Return"></i></a><p>充值</p>
+		</header> -->
+		<div class="clear"></div>
+		
+		<div class="wallet">
+			
+			<div class="clear"></div>
+			<div class="wallet_card">
+				<div class="wallet_cardone buttons">
+				<a href="#"><img src="img/anniu2.png"></a>
+				</div>
+				<div class="le_rens">
+				<p>添加新充值卡</p>	
+				</div>
+			</div>
+
+			<div class="onlys">
+		<form action="" method="">
+		<p>卡名称：<input type="text" name="qian" placeholder="请输入卡名称"></p>
+		<p></p><!--这个p标签用来适应选择器勿删-->
+		<p>购买卡数：<input type="text" name="qian" placeholder="请输入购买卡数"></p>
+		<p>到期时间：<input type="text" name="qian" placeholder="请输入天数"></p>
+		<p>卡行业：<select class="form-control">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select></p>
+		<p>商品介绍：</p>
+		<textarea rows="3" cols="35"></textarea>
+		<p>选择模板：
+				<div>
+			<div class="ding_quan_ta" style="opacity: 1;">
+	             <label>
+	             <input type="radio" name="RadioGroup1" value="6" id="RadioGroup1_0">
+	             <img src="img/card_img/c/mr.png">
+	              模板1
+	              </label>
+	         </div>
+	         <div class="ding_quan_ta" style="opacity: 1;">
+	             <label>
+	             <input type="radio" name="RadioGroup1" value="6" id="RadioGroup1_0">
+	             <img src="img/card_img/c/003.png">
+	              模板2
+	              </label>
+	         </div>
+	         <div class="ding_quan_ta" style="opacity: 1;">
+	             <label>
+	             <input type="radio" name="RadioGroup1" value="6" id="RadioGroup1_0">
+	             <img src="img/card_img/c/004.jpg">
+	              模板3
+	              </label>
+	         </div>
+	         <div class="ding_quan_ta" style="opacity: 1;">
+	             <label>
+	             <input type="radio" name="RadioGroup1" value="6" id="RadioGroup1_0">
+	             <img src="img/card_img/c/005.jpg">
+	              模板4
+	              </label>
+	         </div>
+	         <div class="ding_quan_ta" style="opacity: 1;">
+	             <label>
+	             <input type="radio" name="RadioGroup1" value="6" id="RadioGroup1_0">
+	             <img src="img/card_img/c/006.jpg">
+	              模板5
+	              </label>
+	         </div>
+        </div>
+
+        </p>
+        </form>
+        <div class="clear"></div>
+		</div>
+		<footer class="foots">
+		<button type="button">添加</button>
+		</footer>
+		
+		
+		<!--底部-->
+		<script>
+			$('.ding_quan_ta').click(function(){
+			     $(this).css({'opacity':'1'}).siblings().css({'opacity':'0.6'})
+			});
+		</script>

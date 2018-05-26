@@ -1,0 +1,56 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	padding: 0;
+	background: #FF6446;
+}
+@font-face{
+		font-family: 'byl';
+		src: url(../font/造字工房悦黑细体.otf);
+	}
+.head{
+		width: 100%;
+	}
+.head p{
+	font-family: 'byl';
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin: 10%;
+}
+.head h3{
+	font-family: 'byl';
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+	margin: 10%;
+}
+.leren_biao{
+	width: 100%;
+}
+.leren_logo{
+	width: 172px;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+.leren_inp{
+	width: 100%;
+	margin-top: 15%;
+}
+.leren_bton{
+	width: 290px;
+	margin: 0 auto;
+}
+.leren_bton button{
+	border:2px #EA5328 solid;
+	border-radius: 10px;
+	background: #FFDD55;
+	padding: 15px 125px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+	font-weight: 800;
+	color: #EF5930;
+}
+.top{
+	margin-top: 20px;
+}

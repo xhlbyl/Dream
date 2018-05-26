@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*css.index基础样式*/
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/bk.jpg);
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.only_you{
+	width: 250px;
+	height: 100px;
+	margin: 200px auto;
+}
+.only_you input{
+	border: none;
+	height: 32px;
+	border-radius: 5px;
+	line-height: 20px;	
+	text-indent: 20px;
+}
+.only_you button{
+	margin-left:35%; 
+	margin-top:25px; 
+	border: none;
+	color: #fff;
+	background: #667988;
+	padding: 8px 15px;
+	border-radius: 15px;
+	box-shadow: 2px 2px #cec5c5;
+}
+.only_me{
+	width: 260px;
+	height: 200px;
+	border-radius: 15px;
+	margin: 165px auto;
+	background: #fff;
+	padding-top:15px;
+	padding-left:9px;  
+}
+.only_me input{
+	border: none;
+	border: 1px #b3b3b3 solid;
+	height: 32px;
+	border-radius: 5px;
+	line-height: 20px;	
+	text-indent: 20px;
+	outline: none;	
+}
+.only_me button{
+	margin-left:35%; 
+	margin-top:25px; 
+	border: none;
+	color: #fff;
+	background: #667988;
+	padding: 8px 15px;
+	border-radius: 15px;
+	box-shadow: 2px 2px #cec5c5;
+	outline: none;	
+}
+.only_me p:nth-child(1){
+	text-indent: 15px;
+}
+.form-control{
+	width: 165px;
+	height: 32px;
+	border-radius: 5px; 
+	outline: none;	
+}

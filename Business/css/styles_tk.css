@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*css.index基础样式*/
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/back.jpg);
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+
+.only{
+	width: 290px;
+	height: 200px;
+	border-radius: 15px;
+	margin: 0 auto;
+	background: #fff;
+	padding-top:15px;
+	padding-left:9px;
+}
+.only input{
+	border: none;
+	border: 1px #b3b3b3 solid;
+	height: 32px;
+	border-radius: 5px;
+	line-height: 20px;	
+	text-indent: 20px;
+	outline: none;	
+}
+/*.only button{
+	margin-left:35%; 
+	margin-top:25px; 
+	border: none;
+	color: #fff;
+	background: #667988;
+	padding: 8px 15px;
+	border-radius: 15px;
+	box-shadow: 2px 2px #cec5c5;
+	outline: none;	
+}*/
+.only p:nth-child(1){
+	text-indent: 32px;
+	margin-bottom:1.4rem; 
+}
+
+.onlys{
+	width: 290px;
+	/*height: 500px;*/
+	border-radius: 15px;
+	margin: 0 auto;
+	background: #fff;
+	padding-top:15px;
+	padding-left:9px;
+}
+.onlys input{
+	border: none;
+	border: 1px #b3b3b3 solid;
+	height: 32px;
+	border-radius: 5px;
+	line-height: 20px;	
+	text-indent: 20px;
+	outline: none;	
+}
+.onlys p{
+	margin-bottom:1.4rem; 
+}
+.onlys p:nth-child(1){
+	text-indent: 16px;
+	
+}
+.onlys p:nth-child(2){
+	text-indent: 32px;
+	
+}
+.onlys p:nth-child(5){
+	text-indent: 16px;
+	
+}
+.onlys label{
+	display: block;
+	width: 270px;
+	height: 135px;
+	
+}
+
+.ding_quan_ta {
+    width: 85%;
+    float: left;
+    margin: 10px 15px 10px 15px;
+    opacity: 0.6;
+}
+.ding_quan_ta label {
+    width: 100%;
+    height: 120px;
+    /*border: 1px solid #e1e1e1;*/
+    display: block;
+    line-height: 70px;
+    position: relative;
+}
+#RadioGroup1_0 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.ding_quan_ta label img {
+    width: 100%;
+    height: 120px;
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    /*left: 7%;*/
+    z-index: 1;
+}
+
+
+
+.form-control{
+	width: 165px;
+	height: 32px;
+	border-radius: 5px; 
+	outline: none;	
+}
+
+.foot{
+	width: 100%;
+	position: fixed;
+	bottom: 60px;
+}
+.foot button{
+    width: 125px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    background: #F60057;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}
+.foots{
+	width: 100%;
+	height: 150px;
+	padding-top: 75px;
+}
+.foots button{
+    width: 125px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    background: #F60057;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+}

@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/*css.index基础样式*/
+body,p{
+	margin: 0;
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	background: #000;
+}
+.head p{
+	margin:0; 
+	float: left;
+	color: #fff;
+	font-weight: 800;
+	line-height: 50px;
+}
+.head_Return{
+	width: 21px;
+	height: 21px;
+	margin: 16px;
+	display: block;
+	float: left;
+	background: url(../img/reX.png);
+	background-size:100% 97%; 
+}
+.big_tu{
+	width: 100%;
+	height: 180px;
+	background:url(../img/nav.jpg);
+	background-size:100% 100%;
+	position: relative; 
+	top:-20px;
+}
+.six_god{
+	width: 100%;
+	height: 45px;
+	background:#ffffff8a;
+}
+.six_god ul{
+	list-style: none;
+	padding: 0;
+}
+.six_god ul li{
+	float: left;
+	width: 49.6%;
+	text-align: center;
+	line-height: 45px;
+}
+.six_god ul li a{
+	text-decoration: none;
+	color: #505050;
+}
+.six_god ul li:nth-child(1){
+	border-right: 1px #989898 solid;
+}
+.content{
+	width: 100%;
+}
+.introduction{
+	width: 100%;
+	height: 40px;
+	background:#F2F2F2; 
+}
+.introduction p{
+	text-align: center;
+	font-weight: 800;	
+	line-height: 40px;
+	color: #4C4C4C;
+}
+.con_left{
+	width: 50%;
+	float: left;
+}
+.con_left ul{
+	list-style: none;
+	padding: 0;
+}
+.con_left ul li{
+	font-size: 14px;
+	padding: 10px;
+}
+.Coupon{
+	width: 90%;
+	height: 90%;
+	margin: 18% auto;
+}
+.Coupon img{
+	width: 100%;
+	height: 100%;
+}
+/*footer*/
+#footer {
+    background-color: #fafafa;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+#footer ul{
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+#footer ul li{
+	float: left;
+	width: 25%;
+	height: 60px;
+	text-align: center;
+	padding-top: 10px;
+	background: #f6f6f6;
+	border-top: 1px #858585 solid;
+}
+#footer ul li a{
+	color: #000;
+	text-decoration: none;
+}
+
